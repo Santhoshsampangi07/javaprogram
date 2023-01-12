@@ -10,6 +10,7 @@ public class Program01 {
 	float ab=0.1f;
 	double bc=0.1d;
 
+	// datatypes
 	public static void main(String[] args) {
 		
 		System.out.println("banglore");
