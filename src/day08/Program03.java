@@ -8,7 +8,7 @@ public class Program03 {
     // ii)WHILE STATEMENT :
 
 	public static void main(String[] args) {
-		int a=1;
+		int a=6;
 		while (a<=5)
 		{
 			System.out.println("run a" );
