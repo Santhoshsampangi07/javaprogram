@@ -8,7 +8,7 @@ public class Program03 {
 	// --A ---> PRE-DECREMENT
 	// A-- ---> POST-DECREMENT
 	public static void main(String[] args) {//a=a+1 for incrementing, a=a-1 for decrementing......
-		int a=20;
+		int a=1;
 		
 	    int b=++a;{
 		System.out.println(a+"    "+b);
