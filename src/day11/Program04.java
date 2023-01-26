@@ -14,9 +14,9 @@ public class Program04 {
    5 4 3 2 
    5 4 3 2 1 
    */	
-
+// FOR loop:
 	public static void main(String[] args) {
-		for(int a=1;a<=5;a++)
+		/*for(int a=1;a<=5;a++)
 		{
 			for( int b=5;b>=a;b--)
 			{
@@ -33,12 +33,71 @@ public class Program04 {
 				
 			}
 			System.out.println();
+			
+			}*/
+//WHILE loop:
+		/*{	int a=1;
+		
+		while (a<=5)
+		{
+			int b=5;
+			while (b>=a)
+			{
+				System.out.print(b);
+				b--;
+			}
+			System.out.println();
+			a++;
 		}
 		
-	
-
+		}
 		
-
+        int a=5;
+		
+		while (a>=1)
+		{
+			int b=5;
+			while (b>=a)
+			{
+				System.out.print(b);
+				b--;
+			}
+			System.out.println();
+			a--;
+		}
+		*/
+// DO-WHILE loop:		
+		   
+{	int a=1;
+		
+		do
+		{
+			int b=5;
+			do
+			{
+				System.out.print(b);
+				b--;
+			}while (b>=a);
+			System.out.println();
+			a++;
+		}while (a<=5);
+		
+		}
+		
+        int a=5;
+		
+		do
+		{
+			int b=5;
+			do
+			{
+				System.out.print(b);
+				b--;
+			}while (b>=a);
+			System.out.println();
+			a--;
+		}while (a>=1);		
+		
 	}
 
 }
