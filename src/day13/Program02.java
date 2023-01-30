@@ -1,7 +1,7 @@
 package day13;
 
 public class Program02 {
-	//To find length 
+	//To find  array length 
 
 	public static void main(String[] args) {
 		//1.Finding length:

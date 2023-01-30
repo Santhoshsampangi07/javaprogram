@@ -6,9 +6,11 @@ public class Program01 {
 
 	public static void main(String[] args) {
 		
-		addfunction(1,2);
+		Program01 x= new Program01();
+		
+		x.addfunction(1,2);
 	
-		/*int m=1;
+		/*int m=1; for non-static
 		int n=2;
 		System.out.println(m+n);*/
 
@@ -31,7 +33,7 @@ public class Program01 {
 
 	}
 	
-	public static void addfunction(int m, int n) {
+	public  void addfunction(int m, int n) {
 		
 	System.out.println(m+n);	
 	}
