@@ -9,7 +9,8 @@ public class Program01 {
 
 	public static void main(String[] args) {
 		// ArrayList Declaration :
-		ArrayList<Integer> x=new ArrayList<>();
+		//ArrayList<Datatype> x=new ArrayList<>();
+		ArrayList<Integer> x=new ArrayList<>(); // In this datatype should start with capital letter eg: int - Integer , float - Float ... etc 
 		// To add single value :
 		x.add(10);// index 0
 		x.add(20);// index 1

@@ -7,6 +7,8 @@ public class Program02 {
 
 	public static void main(String[] args) {
 		// ArrayList Declaration :
+		// ArrayList allows duplicate value
+		//Index value is present
 				ArrayList<Integer> x=new ArrayList<>();
 				// To add single value :
 				x.add(10);// index 0
@@ -24,6 +26,8 @@ public class Program02 {
 				Integer[] z= {10,20,30};
 				x.removeAll(Arrays.asList(z));
 				System.out.println(x);
+				// To get the value by giving index number :
+				System.out.println(x.get(4));
 				
 
 	}
